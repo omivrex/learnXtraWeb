@@ -1,5 +1,5 @@
 import React, { ReactElement } from 'react'
-
+import { Link } from 'react-router-dom'
 const styles = {
   nav: {
     width: '100vw',
@@ -22,7 +22,7 @@ const styles = {
 const Navbar = ():ReactElement => {
   return (
     <nav style={{... styles.nav, ...{position: 'fixed'}}}>
-      <span style={styles.span}>JupebStudyApp.com</span>
+      <Link to='/' style={{textDecoration: 'none', color: '#eee'}}><span style={styles.span}>JupebStudyApp.com</span></Link>
       <span style={styles.span}>Get The App</span>
       {/* call butn */}
     </nav>
