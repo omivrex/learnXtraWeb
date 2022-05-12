@@ -21,6 +21,7 @@ body {
   margin: auto;
   z-index: 2;
   width: 100vw;
+  height: 100vh;
   display: flex;
   margin-top: 3rem;
   flex-direction: row;
@@ -34,9 +35,9 @@ body {
   text-align: center;
   position: relative;
   background-repeat: no-repeat;
-  height: 100%;
-  max-width: 35rem;
-  margin: 8rem auto;
+  /* height: 100%; */
+  max-width: 41rem;
+  margin: auto;
   display: flex;
   background-size: cover;
   padding: 0.7rem;

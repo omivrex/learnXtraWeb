@@ -12,6 +12,7 @@ import Home from './components/Home.component';
 import Services from './components/Services.component';
 import OApps from './components/OApps.component';
 import Events from './components/Events.component';
+import Footer from './components/Footer.component';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Route path='/events' element={<Events/>}/>
         <Route path='/OurApps' element={<OApps/>}/>
       </Routes>
+      <Footer/>
     </Router>
   );
 }
