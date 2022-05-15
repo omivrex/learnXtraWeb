@@ -9,8 +9,11 @@ const Footer = ():ReactElement => {
       <footer className={styles.footer}>
         <h1>Powered By LEARNXTRA</h1>
         <p>
-         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa aliquid esse accusamus optio quia facere officia molestiae inventore aspernatur aliquam. Tempora veniam libero tenetur nihil laudantium amet doloremque, quos quod.
+          We provide a range of educational support services for 
+          school leavers, undergraduate students, postgraduate 
+          students and tertiary institutions across Nigeria and beyond.
         </p>
+        <h2>Get in touch with LearnXtra:</h2>
         <section className={styles.contactInfo}>
           <a style={{margin: 'auto', width: '8%'}} href={'mailto:learnextra2@gmail.com'}>
               <SiGmail size={'100%'} color={'#ff5722'}/>

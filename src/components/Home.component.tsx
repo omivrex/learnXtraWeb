@@ -10,7 +10,11 @@ const Home = ():ReactElement => {
       <div className='bannerContent'>
         <h1>LEARNXTRA</h1>
         <h3>Assurance In Your A-Level Exam</h3>
-        <h4>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui molestiae magnam nihil sunt quos fugit assumenda atque et hic, soluta aperiam? Quasi temporibus facere debitis officia perferendis sunt provident placeat?</h4>
+        <h4>
+          At LearnXtra, we believe that education is the key that
+          unlocks the door to numerous opportunities in life. Thus, 
+          we want everyone to find learning easy and interesting.
+        </h4>
         <span>Get The App</span>
       </div>
     </section>
