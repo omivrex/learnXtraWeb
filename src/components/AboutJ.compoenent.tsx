@@ -14,8 +14,14 @@ const AboutJ = ():ReactElement => {
             <h1 style={{textAlign: 'center'}}>ABOUT JUPEB</h1>
             <div style={{padding: '10px'}}>
                 <p>
-                    The Joint Universities Preliminary Examinations Board
-                    (JUPEB) is a national examinations body approved by  
+                    The Joint Universities Preliminary Examination Board 
+                    (JUPEB) programme is reputed to be quite tough, 
+                    competitive and fast-paced for candidates seeking 
+                    admission into Nigerian and foreign universities 
+                    through Direct Entry. 
+                </p>
+                <p>
+                    JUPEB is a national examinations body approved by  
                     the Federal Government of Nigeria in December 2013.  
                     It was formally established in April 2014 by a       
                     consortium of ten (10) partnering universities       

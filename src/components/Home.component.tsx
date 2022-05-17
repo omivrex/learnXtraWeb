@@ -15,14 +15,14 @@ const Home = ():ReactElement => {
           unlocks the door to numerous opportunities in life. Thus, 
           we want everyone to find learning easy and interesting.
         </h4>
-        <span>Get The App</span>
+        <Link to='/apps'><span>Get The App</span></Link>
       </div>
     </section>
 
     <section>
       <Link to='/services'><div className="siteContent">Our Services</div></Link>
       <Link to='aboutJUPEB'><div className="siteContent">About The Programme</div></Link>
-      <Link to='/events'><div className="siteContent">FAQs</div></Link>
+      <Link to='/'><div className="siteContent">Contact Us</div></Link>
       <Link to='/OurApps'><div className="siteContent">Our Apps</div></Link>
     </section>
   </div>

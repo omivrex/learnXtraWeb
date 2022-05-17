@@ -1,5 +1,4 @@
-import React, {ReactElement} from "react";
-import { GiTeacher } from 'react-icons/gi';
+import {ReactElement} from "react";
 import tutorial from "../assets/tutorial.jpg";
 import assign from "../assets/assign.jpg";
 import research from "../assets/research.jpg";
@@ -7,8 +6,8 @@ import graduate from "../assets/graduate.jpg";
 
 const Services = ():ReactElement => {
   return (
-    <div style={{...styles.container, ...{flexDirection: 'column'}}}>
-        <div style={{... styles.header, ...{textAlign: 'center', flexDirection: 'column', justifyContent: 'center'}}}>
+    <div style={styles.container}>
+        <div style={styles.header}>
           <h1 style={styles.h1}>What We Do</h1>
           <p style={{width: '70%', margin: '0 auto'}}>
             At LearnXtra, we believe that education is the key that unlocks the door to numerous opportunities in life. Thus, we want everyone to find learning easy and interesting.
@@ -19,8 +18,8 @@ const Services = ():ReactElement => {
           </p>
         </div>
 
-        <div style={{... styles.header, ...{flexDirection: 'column', textAlign: 'center', justifyContent: 'center'}}}>
-          <h1 style={styles.h1}>Our solutions include:</h1>
+        <div style={styles.header}>
+          <h1 style={styles.h1}>Our Services Include:</h1>
           <div style={styles.ul}>
             <div style={styles.li}>
               <img width={'90%'} src={tutorial}/>
@@ -55,7 +54,8 @@ const styles = {
     backgroundColor: '#531d5c',
     position: 'relative'as any,
     height: 'fit-content',
-    alignItems: 'center'
+    alignItems: 'center',
+    flexDirection: 'column' as any,
   },
 
   header: {
@@ -64,7 +64,10 @@ const styles = {
     padding: '10rem 0',
     display: 'flex',
     alignItems: 'center',
-    justifyContent: 'space-between',
+    textAlign: 'center' as any,
+    flexDirection: 'column' as any,
+    justifyContent: 'center' as any,
+    // justifyContent: 'space-between',
   },
 
   h1: {

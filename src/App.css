@@ -63,7 +63,8 @@ h4 {
   width: 100%;
 }
 
-.bannerContent>span {
+.bannerContent>a {
+  text-decoration: none;
   width: fit-content;
   text-align: center;
   margin: auto;
