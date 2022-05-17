@@ -23,8 +23,8 @@ const Navbar = ():ReactElement => {
   return (
     <nav style={{... styles.nav, ...{position: 'fixed'}}}>
       <Link to='/' style={{textDecoration: 'none', color: '#eee'}}><span style={styles.span}>JupebStudyApp.com</span></Link>
-      <span style={styles.span}>Get The App</span>
-      {/* call butn */}
+      <Link to='/apps' style={{textDecoration: 'none', color: '#eee'}}><span style={styles.span}>Get The App</span></Link>
+      
     </nav>
   )
 }
