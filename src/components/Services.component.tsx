@@ -1,10 +1,14 @@
-import {ReactElement} from "react";
+import {ReactElement, useEffect} from "react";
 import tutorial from "../assets/tutorial.jpg";
 import assign from "../assets/assign.jpg";
 import research from "../assets/research.jpg";
 import graduate from "../assets/graduate.jpg";
 
 const Services = ():ReactElement => {
+  useEffect(() => {
+    window.scroll(0,0)
+  },[])
+  
   return (
     <div style={styles.container}>
         <div style={styles.header}>

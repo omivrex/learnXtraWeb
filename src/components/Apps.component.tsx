@@ -1,12 +1,16 @@
-import React, {ReactElement} from "react";
+import {ReactElement, useEffect} from "react";
 import phone from "../assets/phone.png"
 import {IoLogoGooglePlaystore} from "react-icons/io5"
 import {ImEarth} from "react-icons/im"
 const OApps = ():ReactElement => {
+  useEffect(() => {
+    window.scroll(0,0)
+  },[])
+
   return (
     <div style={styles.container}>
       <div style={styles.imgCol}>
-        <img src={phone} alt="" />
+        <img src={phone} alt="sample of app on mobile phone" />
       </div>
       <div style={styles.contentCol}>
         <h1 style={{fontSize: '8.8vw', margin: '0', fontFamily: "Yanone Kaffeesatz, sans-serif"}}>Download</h1>

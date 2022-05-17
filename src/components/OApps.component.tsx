@@ -1,6 +1,10 @@
-import React, {ReactElement} from "react";
+import {ReactElement, useEffect} from "react";
 
 const OApps = ():ReactElement => {
+  useEffect(() => {
+    window.scroll(0,0)
+  },[])
+
   return (
     <div style={styles.container}>
       <p>
