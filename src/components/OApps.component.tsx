@@ -12,7 +12,7 @@ const OApps = ():ReactElement => {
   return (
     <div style={styles.container}>
       <div style={styles.row}>
-        <h1 style={styles.h1}>Our Inspiration</h1>
+        <h1 style={styles.h1}>The Inspiration</h1>
         <p >
           No doubt, it is the desire of every student preparing to 
           write the annual JUPEB A-level Examination to be successful therein,
