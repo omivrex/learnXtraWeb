@@ -20,9 +20,9 @@ const Home = ():ReactElement => {
     </section>
 
     <section>
-      <Link to='/services'><div className="siteContent">Our Services</div></Link>
-      <Link to='aboutJUPEB'><div className="siteContent">About The Programme</div></Link>
-      <Link to='/'><div className="siteContent">Contact Us</div></Link>
+      <Link to='/Services'><div className="siteContent">Our Services</div></Link>
+      <Link to='/aboutJUPEB'><div className="siteContent">About The Programme</div></Link>
+      <Link to='/Contact'><div className="siteContent">Contact Us</div></Link>
       <Link to='/OurApps'><div className="siteContent">Our Apps</div></Link>
     </section>
   </div>

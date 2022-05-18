@@ -11,7 +11,7 @@ import Navbar from './components/Navbar.component';
 import Home from './components/Home.component';
 import Services from './components/Services.component';
 import OApps from './components/OApps.component';
-import Events from './components/Events.component';
+import Contact from './components/Contact.component';
 import Apps from './components/Apps.component';
 import Footer from './components/Footer.component';
 
@@ -24,7 +24,7 @@ function App() {
         <Route path='/apps' element={<Apps/>}/>
         <Route path='/aboutJUPEB' element={<AboutJ/>}/>
         <Route path='/services' element={<Services/>}/>
-        <Route path='/events' element={<Events/>}/>
+        <Route path='/Contact' element={<Contact/>}/>
         <Route path='/OurApps' element={<OApps/>}/>
       </Routes>
       <Footer/>
