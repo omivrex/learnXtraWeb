@@ -1,4 +1,8 @@
 import {ReactElement, useEffect} from "react";
+import rProg from "../assets/rProg.jpg";
+import news from "../assets/news.jpg";
+import pq from "../assets/pq.jpg";
+import startPrac from "../assets/startPrac.jpg";
 
 const OApps = ():ReactElement => {
   useEffect(() => {
@@ -40,24 +44,87 @@ const OApps = ():ReactElement => {
         </p> 
       </div>
 
-      <div style={styles.row}>
+      <div style={{...styles.row, ...{height: 'fit-content'}}}>
         <h1 style={styles.h1}>Guide Lines</h1>
-        <p>
-
-        </p>
+        <div>
+          <p>
+            <span style={styles.guideHeader}>PAST QUESTIONS</span>
+            <div style={styles.content}>
+              <img style={styles.sampleImg} src={pq} alt="image of pastquestion section" />
+              This application contains past question on
+              MTH, PHY, CHM and BIO. And just a click to view the 
+              corresponding detailed solution. 
+              <br />
+              Each course was splitted into four sections.
+              (001-004) as to enable our user learn in a 
+              better arrangement.
+              Note: only our paid users can gain complete 
+              access to the four courses.
+            </div>
+          </p>
+          <p>
+            <span style={styles.guideHeader}>NEWS {'&'} RESOURCES</span>
+            <div style={styles.content}>
+              <img style={styles.sampleImg} src={news} alt="image of news and resources section" />
+              We keep you updated with recent 
+              happening concerning the program. 
+              <br />
+              We update you with recommended 
+              study materials and cut off marks 
+              for different Universities.                        
+            </div>
+          </p>
+          <p>
+            <span style={styles.guideHeader}>START PRACTICE</span>
+            <div style={styles.content}>
+              <img style={styles.sampleImg} src={startPrac} alt="image of start practice section" />
+              You can take a test to know how you progress                
+              after your study with the past questions                    
+              section.                    
+              <br />
+              This test can either be timed or not,                       
+              by default the timer is off you can turn this                  
+              timer on by clicking on the timmer button.                  
+              Also the time is set to 1 hour by default but                   
+              you can select other options by clicking the                    
+              select time button.                                 
+              <br />
+              On submittion your test in marked and                      
+              your score is shown. This progress is then                          
+              logged to the rate progress section.                                             
+            </div>
+          </p>
+          <p>
+            <span style={styles.guideHeader}>RATE PROGRESS</span>
+            <div style={styles.content}>
+              <img style={styles.sampleImg} src={rProg} alt="image of rate progress section" />
+              Your progress is calculated using the scores                                        
+              and time spent from each test.                                      
+              <br />
+              Your course strength is the total score                                         
+              obtained from all tests taken so far.                                        
+              <br />
+              Average Time Taken is the time                                       
+              taken for you to complete all tests taken                                        
+              in that subject so far.                                     
+              <br />
+              Average Time spent is the                                       
+              time spent per question, that is the time                                        
+              you spend answering each question.                                     
+              This is important to enhance your speed                                         
+              in answering questions and finishing your                                       
+              main exams on time.                                      
+              <br />
+              Each log can be reset by                                       
+              clicking on the reset button below each                                         
+              course section.                                         
+              <br />
+              After you take a new test click the                                         
+              refresh button to see your new progress.                                                               
+            </div>
+          </p>
+        </div>
       </div>
-      {/* <p style={styles.row}>
-      </p> 
-      <p style={styles.row}>
-      </p>  
-
-      <p style={styles.row}>
-      </p> 
-      <p style={styles.row}>
-      </p> 
-
-      <p style={styles.row}>
-      </p> */}
     </div>
   ) 
 }
@@ -95,5 +162,25 @@ const styles = {
     textAlign: 'center' as any,
     textDecoration: 'underline'
   },
+
+  guideHeader: {
+    display: 'block',
+    textAlign: 'center' as any,
+    textDecoration: 'underline',
+  },
+
+  content: {
+    display: 'flex',
+    flexWrap: 'wrap' as any,
+    justifyContent: 'space-evenly',
+    alignItems: 'center',
+    width: '77%',
+    margin: '2rem auto',
+  },
+
+  sampleImg: {
+    width: '10rem',
+    margin: '0.5rem auto'
+  }
 
 }
