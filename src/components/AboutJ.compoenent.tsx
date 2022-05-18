@@ -11,22 +11,22 @@ const AboutJ = ():ReactElement => {
         <div style={styles.container}>
             <div style={styles.row}>
                 <h1 style={styles.h1}>ABOUT JUPEB</h1>
-                <div style={{padding: '10px'}}>
-                    <p>
+                <div style={{width: '90%', margin: 'auto'}}>
+                    <div>
                         The Joint Universities Preliminary Examination Board 
                         (JUPEB) programme is reputed to be quite tough, 
                         competitive and fast-paced for candidates seeking 
                         admission into Nigerian and foreign universities 
                         through Direct Entry. 
-                    </p>
-                    <p>
+                    </div>
+                    <div>
                         JUPEB is a national examinations body approved by  
                         the Federal Government of Nigeria in December 2013.  
                         It was formally established in April 2014 by a       
                         consortium of ten (10) partnering universities       
                         led by the University of Lagos.   
-                    </p>
-                    <p>
+                    </div>
+                    <div>
                         The board has the responsibility of                  
                         conducting common and standard examinations          
                         for the candidates, who have been exposed to a       
@@ -36,8 +36,8 @@ const AboutJ = ():ReactElement => {
                         University courses                                   
                         at the 200 Level in Nigerian and partnering          
                         foreign universities.   
-                    </p>
-                    <p>
+                    </div>
+                    <div>
                         The first of such examinations was conducted in
                         August 2014 and successful                     
                         candidates were admitted into 200 Level by     
@@ -47,14 +47,14 @@ const AboutJ = ():ReactElement => {
                         hold in June annually.                         
                         
                         Source Jupeb Official Site.
-                        <a style={styles.link} href="https://jupeb.edu.ng/about_us/about_jupeb">https://jupeb.edu.ng/about_us/about_jupeb</a>
-                    </p>
+                        <a style={styles.link} href="https://jupeb.edu.ng/about_us/about_jupeb">Jupeb Official Website</a>
+                    </div>
                 </div>
             </div>
 
             <div style={styles.row}>
                 <h1 style={styles.h1}>ADMISSION REQUIRMENTS</h1>
-                <p>
+                <div>
                     To obtain JUPEB registration form,                                       
                     candidates are expected to possess at least                              
                     five credit passes in their O/level results.                             
@@ -67,11 +67,11 @@ const AboutJ = ():ReactElement => {
                     but their O’level result must be available before                        
                     University admission as it will be required by their                     
                     preferred university.
-                </p>
+                </div>
             </div>
             <div style={styles.row}>
                 <h1 style={styles.h1}>JUPEB CUT OFF MARKS</h1>
-                <p>
+                <div>
                     <li style={styles.li}>
                         1. JUPEB cut off marks points for any science,
                         paramedical, administrative course is 6 points and above
@@ -105,80 +105,80 @@ const AboutJ = ():ReactElement => {
                         that accept JUPEB.
                     </li>
                     Source: <a style={styles.link} href='https://myschoolgist.net'>https://myschoolgist.net</a>
-                </p>
+                </div>
             </div>
-            <div style={styles.row}>
+            <div style={{...styles.row, ...{height: 'fit-content'}}}>
                 <h1 style={styles.h1}>AFFILIATE UNIVERSITIES</h1>
-                <p>
-                    <li>
+                <div>
+                    <li style={{...styles.li, ...{textAlign: 'center'}}}>
                         Abia State University, Abia State. 
                     </li>
-                    <li>
+                    <li style={{...styles.li, ...{textAlign: 'center'}}}>
                         Alex Ekwueme University, Ndufu-Alike, Ikwo, Ebonyi State.                       
                     </li>
-                    <li>
+                    <li style={{...styles.li, ...{textAlign: 'center'}}}>
                         Caritas Universtiy, Enugu State. 
                     </li>
-                    <li>
+                    <li style={{...styles.li, ...{textAlign: 'center'}}}>
                         Chukwuemeka Odumegwu Ojukwu University, Uli, Anambra State. 
                         Clifford University Owerrinta, Aba, Abia State. 
                     </li>
-                    <li>
+                    <li style={{...styles.li, ...{textAlign: 'center'}}}>
                         Eastern Palm University, Ogboko, Imo State.                                 
                     </li>
-                    <li>
+                    <li style={{...styles.li, ...{textAlign: 'center'}}}>
                         Ebonyi State University, Ebonyi State. 
                     </li>
-                    <li>
+                    <li style={{...styles.li, ...{textAlign: 'center'}}}>
                         Enugu State University of Science and Technology, Enugu State.                          
                     </li>
-                    <li>
+                    <li style={{...styles.li, ...{textAlign: 'center'}}}>
                         Evangel University, Akaeze, Ebonyi State. 
                     </li>
-                    <li>
+                    <li style={{...styles.li, ...{textAlign: 'center'}}}>
                         Federal University of Technology, Owerri, Imo State.                                    
                     </li>
-                    <li>
+                    <li style={{...styles.li, ...{textAlign: 'center'}}}>
                         Godfrey Okoye University, Enugu State. 
                     </li>
-                    <li>
+                    <li style={{...styles.li, ...{textAlign: 'center'}}}>
                         Imo State University, Owerri, Imo State. 
                     </li>
-                    <li>
+                    <li style={{...styles.li, ...{textAlign: 'center'}}}>
                         Nnamdi Azikiwe University, Awka, Anambra State. 
                     </li>
-                    <li>
+                    <li style={{...styles.li, ...{textAlign: 'center'}}}>
                         Paul University, Awka, Anambra State. 
                     </li>
-                    <li>
+                    <li style={{...styles.li, ...{textAlign: 'center'}}}>
                         Renaissance University, Ugbawka, Enugu State. 
                     </li>
-                    <li>
+                    <li style={{...styles.li, ...{textAlign: 'center'}}}>
                         University of Nigeria, Nsukka, Enugu State.
                     </li>
-                    <li>
+                    <li style={{...styles.li, ...{textAlign: 'center'}}}>
                         Babcock University, Ilishan, Ogun State.
                     </li>
-                    <li>
+                    <li style={{...styles.li, ...{textAlign: 'center'}}}>
                         Federal University of Agriculture, Abeokuta, Ogun State.
                     </li>
-                    <li>
+                    <li style={{...styles.li, ...{textAlign: 'center'}}}>
                         Federal University of Technology, Akure.
                     </li>
-                    <li>
+                    <li style={{...styles.li, ...{textAlign: 'center'}}}>
                         Federal University, Oye-Ekiti, Ekiti State.
                     </li>
-                    <li>
+                    <li style={{...styles.li, ...{textAlign: 'center'}}}>
                         Obafemi Awolowo University, Ile-Ife, Osun State.
                     </li>
-                    <li>
+                    <li style={{...styles.li, ...{textAlign: 'center'}}}>
                         Redeemers University, Ede, Osun State.
                     </li>
-                    <li>
+                    <li style={{...styles.li, ...{textAlign: 'center'}}}>
                         University of Lagos, Akoka, Lagos State.
                     </li>
                     And a lot more...
-                </p>
+                </div>
             </div>
         </div>
     ) 
@@ -203,11 +203,13 @@ const styles = {
     row: {
         fontSize: '1em',
         fontFamily: 'Roboto, sans-serif, san Francisco',
-        margin: 'auto 2rem',
+        margin: '3rem auto 0rem auto',
+        width: '90%',
         height: '100vh',
         display: 'flex',
         flexDirection: 'column' as any,
         alignItems: 'center' as any,
+        padding: '10rem 0px',
         justifyContent: 'center',
     },
 
@@ -218,9 +220,12 @@ const styles = {
 
     link: {
         color: '#90caf9',
+        display: 'block',
+        width: '100%',
     },
 
     li: {
-        listStyleType: 'none'
+        listStyleType: 'none',
+        margin: '1rem auto'
     }
 }
